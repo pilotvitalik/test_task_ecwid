@@ -1,0 +1,21 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.item{
+    display: flex;
+    position: relative;
+    width: 320px;
+    max-width: 320px;
+    height: 100px;
+    margin: 10px 0;
+    background: grey;
+}
+.gallery>div:nth-child(2){
+    width: 100px;
+}

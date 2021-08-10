@@ -1,8 +1,26 @@
 import React from 'react';
+import style from './gallery.module.css';
 
 function Gallery(){
     return(
-        <p>Блок с фото</p>
+        <div className={style.gallery}>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+            <div className={style.item}></div>
+        </div>
     );
 }
 

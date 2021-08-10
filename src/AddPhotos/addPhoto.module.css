@@ -28,12 +28,13 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     position: relative;
-    width: 500px;
-    height: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
 }
 
 .fieldFileFake {
-    height: 60px;
+    height: 50px;
     width: calc(100% - 131px);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,7 +50,7 @@
 
 .fieldFileButton{
     width: 100px;
-    height: 62px;
+    height: 52px;
     background: #1bbc9b;
     color: #fff;
     font-size: 1.125rem;
